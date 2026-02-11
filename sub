@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Euiz tools (loader)
 // @namespace    http://tampermonkey.net/
-// @version      2.0.1
+// @version      2.0.2
 // @description  Loads Euiz tools from CDN
 // @author       7xr
-// @match        https://discord.com/*
-// @run-at       document-end
+// @match        *://discord.com/*
+// @run-at       document-idle
 // @grant        none
 // @require      https://cdn.jsdelivr.net/gh/7xrrr/discord_tools@main/script.js
 // ==/UserScript==
